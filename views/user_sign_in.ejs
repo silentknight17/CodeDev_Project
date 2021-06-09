@@ -1,0 +1,23 @@
+<link rel="stylesheet" href="/css/layout.css">
+
+
+<div id="sign-in-page">
+    <form action="/user/create-session" method="POST">
+        <h2>Sign In</h2>
+        <p id="google-sign-in">
+            <a href="/user/auth/google"><img src="/images/google.png" height="30" width="30"><span> Continue with Google</span></a>
+        </p>
+            <input name="email" type="email" placeholder="Your Email-id" required>
+            <input name="password" type="password" placeholder="Password" required>
+            <input type="submit" value="Sign In">
+        <p id="already-account">
+        <span>Don't have an account?</span> 
+        <a href="/user/sign-up">Sign Up</a>
+        <p>
+    </form>
+     
+    </div>
+
+
+
+

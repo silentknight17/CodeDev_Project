@@ -1,0 +1,21 @@
+
+#post-main{
+  background-color: aqua;
+  height: auto;
+  width: auto;
+  margin-bottom: 10px;
+  margin-top: 10px;
+  
+}  
+.post-container .post-like-content {
+  display: flex;
+  justify-content: space-around;
+ }
+  .post-container .post-like-content a {
+    color: #1539e8;
+    text-decoration: none;
+   }
+#post-main li{
+  list-style-type: none;
+}
+

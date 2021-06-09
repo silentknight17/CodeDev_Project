@@ -1,0 +1,38 @@
+body {
+    background-color: whitesmoke; }
+    body .profile-section {
+      display: flex;
+      flex-direction: column; }
+      body .profile-section img {
+        margin: auto; }
+      body .profile-section form {
+        display: inline-block;
+        height: 20rem;
+        width: 18rem;
+        border-radius: 3%;
+        margin: auto; }
+        body .profile-section form input {
+          display: inline-block;
+          margin-top: 0.5rem;
+          width: 15rem;
+          padding: 0.8rem;
+          font-size: 0.7rem;
+          font-family: sans-serif;
+          outline-color: black; }
+        body .profile-section form input[type="submit"] {
+          background-color: #4834c9;
+          color: white;
+          font-size: 1rem;
+          outline: none;
+          cursor: pointer;
+          border: none;
+          border-radius: 3%; }
+        body .profile-section form input[type="file"] {
+          background-color: #322f38;
+          color: white;
+          font-size: 1rem;
+          outline: none;
+          cursor: pointer;
+          border: none;
+          border-radius: 3%; }
+  

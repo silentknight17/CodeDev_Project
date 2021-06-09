@@ -1,0 +1,28 @@
+<link rel="stylesheet" href="/css/user_profile.css">
+
+
+
+<div class="profile-section">
+
+    <!-- locals.user contains current logged in user  -->
+   <!-- user is here accessible bcoz of user.locals.user=req.user -->
+  <%  if(user.id==profile_user.id){  %>
+      
+      <img src="<%= user.avatar %>" alt="<%= user.name %>" width="200" height="200">
+       <!-- if user matches then show the form -->
+      <form action="/user/update/<%= profile_user._id%>" enctype="multipart/form-data" method="POST">
+          <input type="text" name="name" placeholder="Enter name" value="<%= profile_user.name %>" required>
+         
+          <input type="email" name="email" placeholder="Enter email" value="<%= profile_user.email %>" required>
+          <input type="file" name="avatar" placeholder="Profile Picture">
+          <input type="submit" value="Update">
+      </form>
+      </div>
+  <%  }else{ %>
+      <div class="profile-section">
+      <!-- else show only the profile info -->
+      <img src="<%= profile_user.avatar %>" alt="<%= profile_user.name %>" width="500px" height="500px">
+      <h1> Name : <%= profile_user.name%></h1>
+      <h1> Email : <%= profile_user.email%></h1>
+  <% } %>
+  </div>

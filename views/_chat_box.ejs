@@ -1,0 +1,34 @@
+<!-- Create the code for chatbox -->
+
+<% if(locals.user){ %>
+    <button class="btn open-button"><b>Group Chat</b></button>
+    
+    <div id="user-chat-box">
+            
+        <div id="feedback"></div>
+        <ul id="chat-messages-list">
+            <li class="other-message">
+                
+                
+
+            </li>
+            <li class="self-message">
+                
+                
+                
+            </li>
+        </ul>
+        
+        <div id="chat-message-input-container">
+            <input id="chat-message-input" placeholder="Type your message here...">
+            <button id="send-message">Send</button>
+            
+
+        </div>
+        <div  class="btn btn-cancel" ><i class="fas fa-window-close"></i></div>
+        
+        
+
+    </div>
+
+<% } %>

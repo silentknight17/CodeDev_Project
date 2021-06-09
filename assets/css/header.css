@@ -1,0 +1,31 @@
+#header {
+    background-color: #4834c9;
+    height: 7vh;
+    display: flex;
+    justify-content: space-between; }
+    #header a {
+      text-decoration: none;
+      margin-left: 2vh;
+      color: white;
+      font-family: sans-serif; }
+    #header #app-name {
+      margin-top: 1.5vh;
+     font-size:20px;
+     font-weight: bolder;
+
+     }
+     #header #app-name #title-name{
+    font-size: 25;
+    margin-left: 50px;
+    margin-bottom: 20px;
+    font-weight: bolder;
+    font-family: cursive;
+     }
+    #header div span {
+      color: white;
+      font-family: sans-serif; }
+    #header #sign-links {
+      margin-top: 1.5vh;
+    margin-right: 50px;
+     }
+  

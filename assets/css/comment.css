@@ -1,0 +1,22 @@
+
+#comment-main{
+  background-color:greenyellow;
+  height: auto;
+  width: 100%;
+  margin-bottom: 10px;
+  margin-top: 10px;
+  margin-right: 45%;
+  
+}  
+.comment-container .comment-like-content {
+  display: flex;
+  justify-content: space-around;
+ }
+  .comment-container .post-like-content a {
+    color: #1539e8;
+    text-decoration: none;
+   }
+#comment-main li{
+  list-style-type: none;
+}
+

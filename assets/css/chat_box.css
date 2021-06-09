@@ -1,0 +1,100 @@
+.open-button {
+    background-color: #ff1919;
+    color: white;
+    padding: 16px 20px;
+    border: none;
+    cursor: pointer;
+    opacity: 0.8;
+    position: fixed;
+    bottom: 120px;
+    right: 5px;
+    width: 280px;
+   
+    font-family: cursive;
+    
+  }
+  
+  #user-chat-box {
+    display: none;
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    border: 1px solid grey;
+    height: 350px;
+    width: 300px;
+    background-color: white;
+    padding: 5px;
+    box-shadow: 1px 1px 2px 1px grey;
+    margin-bottom: 110px;
+    margin-right: -5px;
+   }
+    #user-chat-box #feedback {
+      font-size: 12px; }
+    #user-chat-box #chat-messages-list {
+      list-style: none;
+      height: 70%;
+      padding: 10px;
+      background-color: white;
+      overflow: auto; }
+      #user-chat-box #chat-messages-list .other-message {
+        text-align: left;
+        padding: 5px; 
+        font-family: cursive;
+        font-weight: 500;
+      }
+        #user-chat-box #chat-messages-list .other-message span {
+          display: inline-block;
+          padding: 10px;
+          border: 1px solid grey;
+          background-color: lightblue; }
+        #user-chat-box #chat-messages-list .other-message sub {
+          font-size: 15px; }
+      #user-chat-box #chat-messages-list .self-message {
+        text-align: right;
+        padding: 5px; 
+        font-family: cursive;
+        font-weight: 500; 
+      }
+        #user-chat-box #chat-messages-list .self-message span {
+          display: inline-block;
+          padding: 10px;
+          border: 1px solid grey;
+          background-color: lightgreen; }
+        #user-chat-box #chat-messages-list .self-message sub {
+          font-size: 15px; }
+    #user-chat-box #chat-messages-list::-webkit-scrollbar {
+      display: none; }
+    #user-chat-box #chat-message-input-container {
+      height: 24%;
+      width: 100%;
+      display: flex;
+      flex-direction: row; }
+      #user-chat-box #chat-message-input-container #chat-message-input {
+        width: 70%;
+        height: 50%;
+        outline: none;
+        font-size: 17px; }
+      #user-chat-box #chat-message-input-container #send-message {
+        width: 30%;
+        height: 50%;
+        font-size: 25px;
+        color: black;
+        border: none;
+        background: rgb(15, 241, 7);
+        cursor: pointer;
+        outline: none;
+        font-family: cursive; }
+    #user-chat-box .btn-cancel {
+      display: block;
+      color: black;
+      height: 22px;
+      width: 22px;
+      cursor: pointer;
+      position: fixed;
+      right: 320px;
+      bottom: 480px;
+
+     }
+      #user-chat-box .btn-cancel i {
+        font-size: 1rem; }
+  

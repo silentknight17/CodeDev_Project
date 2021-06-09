@@ -1,0 +1,26 @@
+#footer {
+  display: flex;
+  justify-content: space-between;
+  height: 10vh;
+  background-color: #59f7d7;
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  width: 29%;
+  height: 110px;
+}
+#footer #footer-nav {
+      margin-top: 0.5rem;
+      color: white;
+      font-family: sans-serif; 
+      margin-right:800px;
+      
+    }
+#footer #rights{
+  margin-left: 140px;
+  
+}
+#footer #home-btn{
+  text-decoration: none;
+  height: 40px;
+}
